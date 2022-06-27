@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+
+<html lang ="es>
+    <head>
+        <title> Registrar Usuario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
+
+
+    </head>
+    <body style="background-color:white">
+        <div class="container" style= "background-color:rgb(9, 9, 104)">
+            <div class="row justify-content-center align-items-center vh-105">
+                <div class="col-sm-3 col-md-9 col-lg-6 col-xl-7">
+        <section style="text-align: center;" >
+            <div class="row">
+                <div class="col-sm-16 col-md-8">
+                  <div class="container">
+                    <h1 style="color:black;" id="tituloPag" class="lead"></h1>
+                  </div>  
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="container">
+                        <img width="100%" src="img/icon-1.png" alt="logo auto">
+                    </div>
+                </div>
+        
+            </div>
+            <h1 style="color:white;"> Envio correo electronico </h1>
+
+            <form action="formularioEXITO.html">                
+                <div class="form-group">
+                    <label for="#Nombre" style="color:white;">Nombre mascota</label>
+                    <br>
+                    <input type="text" class="form-control" name="#Nombre" id="Nombre" placeholder="Ingresa el nombre de tu mascota" autocomplete="on">
+    
+                </div>    
+                    
+                <div class="form-group">
+                    <label for="#Apellido" style="color:white;">Animal</label>
+                    <br>
+                    
+                    <select class="browser-default custom-select">
+                        <option selected="">¿Que es tu mascota?</option>
+                        <option value="1">Perro</option>
+                        <option value="2">Gato</option>
+                        <option value="3">Reptil</option>
+                        <option value="4">Ave</option>
+                        <option value="5">Otro</option>
+                      </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="#Apellido" style="color:white;">Correo</label>
+                    <br>
+                    
+                    <select class="browser-default custom-select">
+                        <option selected="">Correo</option>
+                        <option value="1">Veterinarios@belovedped@gmail.com</option>
+                        <option value="2">Veterinaria.BP@gmail.com</option>
+                      </select>
+                </div>
+
+                
+                <div class="form-group">
+                    <label for="#Correo_Electronico" style="color:white;">Motivo </label>
+                    <br>
+                    <select class="browser-default custom-select">
+                        <option selected="">consulta</option>
+                        <option value="1">consulta general</option>
+                        <option value="2">compra de insumos</option>
+                        <option value="3">procedimientos</option>
+                        <option value="4">Informacion</option>
+                        <option value="5">Otros</option>
+                      </select>
+                </div>    
+                <div class="form-group">
+                    <label for="#Nombre" style="color:white;">Correo Personal</label>
+                    <br>
+                    <input type="text" class="form-control" name="#Nombre" id="Nombre" placeholder="Ingresa tu correo electronico" autocomplete="on">
+    
+                </div>   
+                    
+                <div class="form-group">
+                    <label for="#Contraseña" style="color:white;">Información sobre su consulta</label>
+                    <br>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Escribe datos importantes Sobre su consulta"></textarea>
+                      </div>
+                </div>
+                <div class="form-group">
+                <div>
+                    <br>
+                    <a href="informacion_ContactoExito.html"class="btn btn-success" id="btnEnviar" style="color:white;">Enviar Correo</a>
+                </div>
+            </form>
+            <br>
+            <a style="color:lime;" href="user.html">Volver al Inicio</a>
+            </div>
+        </section>
+                    </div>
+                </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+
+        <script src="./formulario.js"></script>
+    </body>
+
+
+</html>
